@@ -1,0 +1,21 @@
+.v-table__wrapper {
+  margin: 10px;
+  border: solid 1px #e8e9ed;
+  border-radius: 6px;
+}
+
+.v-data-table .v-table__wrapper > table > thead > tr > th {
+  text-transform: uppercase;
+  color: #376c96 !important;
+}
+
+.v-data-table .v-table__wrapper > table tbody > tr > td {
+  color: #143045 !important;
+  font-weight: 500;
+  border-bottom: solid 1px #ecedf4 !important;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
